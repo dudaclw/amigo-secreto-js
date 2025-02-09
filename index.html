@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/icons/sorteio-favicon.png" type="image/x-icon">
+    <title>Amigo Secreto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container header-content">
+            <img src="./assets/icons/sorteio-logo.png" alt="Sorteio Logo">
+            <h2>Challenge Amigo Secreto</h2>
+        </div>
+    </header>
+
+    <main>
+        <section class="container padding">
+            <div class="section-content">
+                <div class="section-content__text">
+                    <h1>Bem-vindo(a)!</h1>
+                    <p>
+                        Chegou bem a tempo do sorteio :) <br><br>
+                        Insira os nomes dos participantes da brincadeira, e clique em "Sortear"!
+                    </p>
+                </div>
+                <img src="./assets/images/amigos.jpg" alt="Amigos.">
+            </div>
+        </section>
+
+        <section class="game-bg">
+            <div class="section-content container padding game-content">
+                <div class="game-content__add">
+                    <input type="text" id="name" placeholder="Digite aqui" aria-label="Nome">
+                    <button id="add" onclick="adicionarAmigo()">Adicionar</button>
+                </div>
+                <div class="game-content__names">
+                    <div class="game-content__names__list">
+                        <h3>Nomes Adicionados na Lista</h3>
+                        <ul id="names-list"></ul>
+                    </div>
+                    <div class="game-content__names__sort">
+                        <h3>Quem foi sorteado é:</h3>
+                        <ul id="sorted-name"></ul>
+                    </div>
+                </div>
+                <button class="game-content__button" id="sort" onclick="sortear()">Sortear</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
