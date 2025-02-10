@@ -1,4 +1,8 @@
 # Challenge ONE - Amigo Secreto 
+<img width="1108" alt="image" src="https://github.com/user-attachments/assets/79c261b8-a553-4c9d-96b0-8ec37801bff7" />
+
+## Link para visualização:
+https://amigo-secreto-js-ochre.vercel.app
 
 Este projeto simples tem como objetivo treinar a lógica de programação por meio da implementação de um sorteio de "Amigo Secreto". O código foi desenvolvido utilizando HTML, CSS e JavaScript para praticar conceitos fundamentais de desenvolvimento web e lógica de programação.
 
